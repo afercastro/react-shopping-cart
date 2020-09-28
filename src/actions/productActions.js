@@ -1,4 +1,4 @@
-import {FETCH_PRODUCTS, FILTER_PRODUCTS_BY_SIZE, ORDER_PRODUCTS_BY_PRICE} from '../types';
+import {FETCH_PRODUCTS, FILTER_PRODUCTS_BY_MODEL, ORDER_PRODUCTS_BY_PRICE} from '../types';
 
 export const fetchProducts=()=>async (dispatch)=>{
     const res = await fetch('/api/products');
@@ -8,13 +8,13 @@ export const fetchProducts=()=>async (dispatch)=>{
         payload: data,
     })
 };
-export const filterProducts = (products, size)=>(dispatch)=>{
+export const filterProducts = (products, model)=>(dispatch)=>{
     dispatch({
-        type: FILTER_PRODUCTS_BY_SIZE,
+        type: FILTER_PRODUCTS_BY_MODEL,
         payload: {
-            size: size,
-            items: size===""? products:
-            products.filter(x=>x.availableSizes.indexOf(size)>=0)
+            model: model,
+            items: model===""? products:
+            products.filter(x=>x.availableModels.indexOf(model)>=0)
         }
     });
 };

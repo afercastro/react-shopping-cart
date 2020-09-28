@@ -1,52 +1,52 @@
 {
     "products": [
         {
-          "_id": "dress1",
-          "image": "/images/dress1.jpg",
-          "title": "Midi sundress with shirring detail",
-          "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-          "availableSizes": ["X", "L", "XL", "XXL"],
-          "price": 29.9
+          "_id": "auto1",
+          "image": "/images/1auto.jpg",
+          "title": "Cadillac",
+          "description": "They are known for making luxury cars. In the United States during the 20th century, Cadillacs were so highly thought of that the phrase 'the Cadillac of x' was coined, meaning that something is of excellent quality and better than everything else in its category.",
+          "availableModels": ["2017", "2018", "2019", "2020"],
+          "price": 80000
         },
         {
-          "_id": "dress2",
-          "image": "/images/dress2.jpg",
-          "title": "Midi sundress with ruched front",
-          "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-          "availableSizes": ["X", "M", "L"],
-          "price": 18.9
+          "_id": "auto2",
+          "image": "/images/2amg.jpg",
+          "title": "AMG",
+          "description": "Mercedes-Benz is known for producing luxury vehicles and commercial vehicles. The headquarters is in Stuttgart, Baden-Württemberg. The name first appeared in 1926 under Daimler-Benz. In 2018, Mercedes-Benz was the largest seller of premium vehicles in the world, having sold 2.31 million passenger cars.",
+          "availableModels": ["2015", "2016", "2017"],
+          "price": 100000
         },
         {
-          "_id": "dress3",
-          "image": "/images/dress3.jpg",
-          "title": "Midi dress in pink ditsy floral",
-          "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-          "availableSizes": ["X", "M", "L"],
-          "price": 14.9
+          "_id": "auto3",
+          "image": "/images/3aston.jpg",
+          "title": "Aston Martin",
+          "description": "Aston Martin is a modern, exclusive sports car brand with a unique heritage instantly recognised around the world. Founded in 1913 by Lionel Martin and Robert Bamford, Aston Martin is acknowledged as an iconic global brand synonymous with style, luxury, performance and exclusivity.",
+          "availableModels": ["2016", "2017", "2018"],
+          "price": 60000
         },
         {
-          "_id": "dress4",
-          "image": "/images/dress4.jpg",
-          "title": "cami maxi dress in polka dot",
-          "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-          "availableSizes": ["XL"],
-          "price": 25.9
+          "_id": "auto4",
+          "image": "/images/4audi.jpg",
+          "title": "Audi",
+          "description": "This German luxury brand is known for technology and style as much as its performance, luxurious interiors, and Quattro all-wheel-drive system.",
+          "availableModels": ["2020"],
+          "price": 70000
         },
         {
-          "_id": "dress5",
-          "image": "/images/dress5.jpg",
-          "title": "Frill mini dress in yellow polka dot",
-          "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-          "availableSizes": ["X", "L", "XL"],
-          "price": 10.9
+          "_id": "auto5",
+          "image": "/images/5ford.jpg",
+          "title": "Ford",
+          "description": "Ford Motor Company is a global automotive and mobility company. The Company's business includes designing, manufacturing, marketing, and servicing a full line of Ford cars, trucks, and sport utility vehicles (SUVs), as well as Lincoln luxury vehicles.",
+          "availableModels": ["2017", "2018", "2019"],
+          "price": 140000
         },
         {
-          "_id": "dress6",
-          "image": "/images/dress6.jpg",
-          "title": "Midi tea dress in blue and red spot",
-          "description": "This is for all the latest trends, no matter who you are, where you’re from and what you’re up to. Exclusive to ASOS, our universal brand is here for you, and comes in all our fit ranges: ASOS Curve, Tall, Petite and Maternity. Created by us, styled by you.",
-          "availableSizes": ["XL", "XXL"],
-          "price": 49.9
+          "_id": "auto6",
+          "image": "/images/6maserati.jpg",
+          "title": "Maserati",
+          "description": "Maserati is an Italian manufacturer specializing in ultra-luxury vehicles. With a reputation for high performance grand tourers, Maserati cars have always been a stylish form of transportation. ... It was during this time that models such as the 3500 GT, Mistral, Quattroporte, and Ghibli first made appearances.",
+          "availableModels": ["2019", "2020"],
+          "price": 120000
         }
       ]
 }

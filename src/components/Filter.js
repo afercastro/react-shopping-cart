@@ -19,16 +19,16 @@ class Filter extends Component {
                         <option value="highest">Highest</option> 
                         </select>
                         </div>
-                <div className="filter-size">
+                <div className="filter-models">
                     Filter {" "}
-                    <select value={this.props.size} onChange={(e)=>this.props.filterProducts(this.props.products, e.target.value)}>
+                    <select value={this.props.models} onChange={(e)=>this.props.filterProducts(this.props.products, e.target.value)}>
                     <option value="">All</option>
-                    <option value="XS">XS</option>
-                    <option value="S">S</option>
-                    <option value="M">M</option>
-                    <option value="L">L</option>
-                    <option value="XL">XL</option>
-                    <option value="XXL">XXL</option>
+                    <option value="XS">2015</option>
+                    <option value="S">2016</option>
+                    <option value="M">2017</option>
+                    <option value="L">2018</option>
+                    <option value="XL">2019</option>
+                    <option value="XXL">2020</option>
                     </select> </div>
             </div>
             )
@@ -36,7 +36,7 @@ class Filter extends Component {
     }
 }
 export default connect((state)=>({
-    size: state.products.size,
+    models: state.products.models,
     sort: state.products.sort,
     products: state.products.items,
     filteredProducts: state.products.filteredItems,
