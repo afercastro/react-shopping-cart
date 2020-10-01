@@ -23,12 +23,12 @@ class Filter extends Component {
                     Filter {" "}
                     <select value={this.props.models} onChange={(e)=>this.props.filterProducts(this.props.products, e.target.value)}>
                     <option value="">All</option>
-                    <option value="XS">2015</option>
-                    <option value="S">2016</option>
-                    <option value="M">2017</option>
-                    <option value="L">2018</option>
-                    <option value="XL">2019</option>
-                    <option value="XXL">2020</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
                     </select> </div>
             </div>
             )
